@@ -19,7 +19,7 @@ const statistics = [
 
 const Page5 = () => {
   return (
-    <div className='flex md:flex-row items-center justify-center pt-12'>
+    <div className='flex md:flex-row items-center justify-center pt-16'>
       <Image
         src={Image1}
         alt='Centered SVG'

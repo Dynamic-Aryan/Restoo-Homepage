@@ -3,14 +3,14 @@ import React from 'react'
 const Gallery = () => {
   return (
     <div className='flex flex-col items-center justify-center pt-20'>
-       <span className='text-center text-3xl font-light leading-relaxed md:text-4xl'>
-        Gallery
+       <span className='text-center text-3xl font-bold leading-relaxed md:text-5xl'>
+        Change the restaurant loyalty paradigm
       </span>
-      <span className='mt-5 text-center text-sm leading-relaxed md:text-lg'>
-       We focus on ergonomics and meeting you where you work.
+      <span className='mt-6 text-center text-sm leading-relaxed md:text-sm'>
+      Create personalized loyalty programs that turn first-time visitors into lifetime fans
         <br />
         <span className='block'>
-          It's only a keystroke away
+          Understand your revenue sources and enhance customer experiences with data-driven insights
         </span>
       </span>
       <div className='flex mt-12'>

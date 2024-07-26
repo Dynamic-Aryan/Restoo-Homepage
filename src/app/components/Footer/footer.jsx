@@ -1,50 +1,70 @@
 import React from 'react'
-import locationIcon from '../../assets/Footer/location.svg'
-import phoneIcon from '../../assets/Footer/phone.svg'
-import emailIcon from '../../assets/Footer/phone.svg'
-import twitterIcon from '../../assets/Footer/twitter.svg'
-import facebookIcon from '../../assets/Footer/facebook.svg'
-import linkedinIcon from '../../assets/Footer/linkedin.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationPin, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import Logo from '../../assets/Navbar/icon.svg'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col p-16'>
+    <div className='flex flex-col p-16 mx-6'>
       <div className='flex justify-between'>
         <div>
-          <h3 className='font-semibold'>Resources</h3>
-          <ul className='mt-5 space-y-1'>
-            <li>Home</li>
-            <li>Pricing</li>
-            <li>Updates</li>
-          </ul>
+          <div className='newsletter space-y-3'>
+            <Image src={Logo} alt='Logo' className='h-14 w-44' />
+            <p className='text-lg'>
+              Building a business can be challenging,
+              <br /> our newsletter can help.
+            </p>
+            <p className='pt-4 font-extralight'>We won't spam, promise! 🤝</p>
+            <form action='#' method='post' className='mt-4 flex flex-col'>
+              <input
+                type='email'
+                placeholder='Enter email'
+                required
+                className='mb-2 border border-white bg-zinc-900 p-2 text-black'
+              />
+              <button
+                type='submit'
+                className='w-fit rounded bg-green-500 p-2 text-white'
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
         </div>
         <div>
           <h3 className='font-semibold'>About</h3>
-          <ul className='mt-5 space-y-1'>
-            <li>Home</li>
-            <li>Pricing</li>
-            <li>Updates</li>
-          </ul>
+          <u>
+            <ul className='mt-5 space-y-3'>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Pricing</li>
+              <li>Terms of Service</li>
+              <li>Privacy Policy</li>
+              <li>Refund & Cancellation</li>
+            </ul>
+          </u>
         </div>
         <div>
           <ul className='mt-2 space-y-1'>
             <li className='flex items-center'>
-              <img src={locationIcon} alt='Location' className='mr-2 h-6 w-6' />
+              <FontAwesomeIcon icon={faLocationPin} className='mr-2 h-6 w-6' />
               Balaji nagar, pune, Maharashtra
             </li>
             <li className='flex items-center'>
-              <img src={phoneIcon} alt='Phone' className='mr-2 h-6 w-6' />
+              <FontAwesomeIcon icon={faPhone} className='mr-2 h-6 w-6' />
               8637717190
             </li>
             <li className='flex items-center'>
-              <img src={emailIcon} alt='Email' className='mr-2 h-6 w-6' />
+              <FontAwesomeIcon icon={faEnvelope} className='mr-2 h-6 w-6' />
               contact@restooai.com
             </li>
           </ul>
           <div className='mt-3 flex items-center space-x-4'>
-            <img src={twitterIcon} alt='Twitter' className='h-6 w-6' />
-            <img src={facebookIcon} alt='Facebook' className='h-6 w-6' />
-            <img src={linkedinIcon} alt='LinkedIn' className='h-6 w-6' />
+            <FontAwesomeIcon icon={faTwitter} className='h-6 w-6' />
+            <FontAwesomeIcon icon={faFacebookF} className='h-6 w-6' />
+            <FontAwesomeIcon icon={faLinkedinIn} className='h-6 w-6' />
           </div>
         </div>
       </div>

@@ -5,3 +5,10 @@
 body {
   background-color: #181818;
 }
+.bg-page1 {
+  background-image: url('../../../restooui/src/app/assets/Background/background.svg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}

@@ -4,7 +4,7 @@ import Logo from '../../assets/Navbar/icon.svg'
 import Menu from '../../assets/Navbar/menu.svg'
 const Navbar = () => {
   return (
-    <nav className='flex items-center justify-between px-24 py-3'>
+    <nav className='flex items-center justify-between px-24 py-6 bg-page1'>
       <div className='flex items-center'>
         <Image src={Logo} alt='Logo' className='h-14 w-44' />
       </div>
