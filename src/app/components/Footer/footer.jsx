@@ -16,7 +16,7 @@ const Footer = () => {
               Building a business can be challenging,
               <br /> our newsletter can help.
             </p>
-            <p className='pt-4 font-extralight'>We won't spam, promise! 🤝</p>
+            <p className='pt-4 font-extralight'>We won&apos;t spam, promise! 🤝</p>
             <form action='#' method='post' className='mt-4 flex flex-col'>
               <input
                 type='email'

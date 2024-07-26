@@ -32,7 +32,7 @@ const Page3 = () => {
         Many restaurants struggle with high customer churn and ineffective marketing
         <br />
         <span className='block'>
-          Let's change the game with personalized, automated marketing
+          Let&apos;s change the game with personalized, automated marketing
         </span>
       </span>
       <div className='pt-10 flex md:flex-row flex-col'>
