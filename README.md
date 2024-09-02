@@ -1,4 +1,9 @@
-This is a [RestooAI landind page](https://restoo-homepage.vercel.app/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a deployed [RestooAI landind page](https://restoo-homepage.vercel.app/)  project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+
+https://github.com/user-attachments/assets/c9e31242-061f-40fa-aa2e-63f953ad7476
+
 
 ## Getting Started
 
